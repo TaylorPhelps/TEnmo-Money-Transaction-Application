@@ -1,0 +1,42 @@
+2024-06-13 18:27:10.645  INFO 4244 --- [restartedMain] com.techelevator.tenmo.TenmoApplication  : Starting TenmoApplication on JDCG-PC with PID 4244 (C:\Users\jamic\Module 2\module-2-capstone-v2\module-2-capstone\tenmo-server\target\classes started by jamic in C:\Users\jamic\Module 2\module-2-capstone-v2\module-2-capstone)
+2024-06-13 18:27:10.648 DEBUG 4244 --- [restartedMain] com.techelevator.tenmo.TenmoApplication  : Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+2024-06-13 18:27:10.649  INFO 4244 --- [restartedMain] com.techelevator.tenmo.TenmoApplication  : No active profile set, falling back to default profiles: default
+2024-06-13 18:27:10.729  INFO 4244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-13 18:27:10.730  INFO 4244 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-13 18:27:11.484  INFO 4244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13 18:27:11.554  INFO 4244 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 5 JPA repository interfaces.
+2024-06-13 18:27:12.070  INFO 4244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@69bebcf5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-13 18:27:12.075  INFO 4244 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-13 18:27:12.336  INFO 4244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-06-13 18:27:12.345  INFO 4244 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-13 18:27:12.346  INFO 4244 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2024-06-13 18:27:12.439  INFO 4244 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-13 18:27:12.439  INFO 4244 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1709 ms
+2024-06-13 18:27:12.615  INFO 4244 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13 18:27:12.683  INFO 4244 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-06-13 18:27:12.863  INFO 4244 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-06-13 18:27:12.978  INFO 4244 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-13 18:27:13.165  INFO 4244 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-13 18:27:13.203  INFO 4244 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2024-06-13 18:27:14.134  INFO 4244 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-13 18:27:14.140  INFO 4244 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13 18:27:14.178  INFO 4244 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-13 18:27:14.675  WARN 4244 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13 18:27:14.787  INFO 4244 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/**', OPTIONS], []
+2024-06-13 18:27:14.807  INFO 4244 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@938594e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d848ca7, org.springframework.security.web.header.HeaderWriterFilter@46eceb26, org.springframework.security.web.authentication.logout.LogoutFilter@1acf3e8a, com.techelevator.tenmo.security.jwt.JWTFilter@16458262, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2322627, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@145ccde5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@759dc54e, org.springframework.security.web.session.SessionManagementFilter@3e4ae07d, org.springframework.security.web.access.ExceptionTranslationFilter@28d5d923]
+2024-06-13 18:27:14.908  INFO 4244 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-06-13 18:27:15.144  INFO 4244 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-06-13 18:27:15.151  INFO 4244 --- [restartedMain] com.techelevator.tenmo.TenmoApplication  : Started TenmoApplication in 4.907 seconds (JVM running for 5.901)
+2024-06-13 18:27:30.006  INFO 4244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-13 18:27:30.007  INFO 4244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-13 18:27:30.014  INFO 4244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-06-13 18:27:30.024 DEBUG 4244 --- [http-nio-8080-exec-1] c.t.tenmo.security.jwt.JWTFilter         : no valid JWT token found, uri: /login
+2024-06-13 18:27:30.154 DEBUG 4244 --- [http-nio-8080-exec-1] c.t.t.security.UserModelDetailsService   : Authenticating user 'larry'
+2024-06-13 18:27:34.917 DEBUG 4244 --- [http-nio-8080-exec-2] c.t.tenmo.security.jwt.JWTFilter         : set Authentication to com.techelevator.tenmo.security context for 'larry', uri: /transfer/history/
+2024-06-13 18:27:34.932  INFO 4244 --- [http-nio-8080-exec-2] c.t.tenmo.controller.TransferController  : [2024-06-13T18:27:34.931306400]: larry is currently requesting to view their transaction history.
+2024-06-13 18:27:37.493 DEBUG 4244 --- [http-nio-8080-exec-3] c.t.tenmo.security.jwt.JWTFilter         : set Authentication to com.techelevator.tenmo.security context for 'larry', uri: /transfer/history/
+2024-06-13 18:27:37.494  INFO 4244 --- [http-nio-8080-exec-3] c.t.tenmo.controller.TransferController  : [2024-06-13T18:27:37.494592500]: larry is currently requesting to view their transaction history.
+2024-06-13 18:27:58.855  INFO 4244 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-06-13 18:27:58.856  INFO 4244 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13 18:27:58.858  INFO 4244 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-13 18:27:58.862  INFO 4244 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
