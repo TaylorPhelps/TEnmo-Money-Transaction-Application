@@ -1,13 +1,12 @@
 # TEnmo Money Transaction Application (Merit America Capstone #2)
 
-Congratulations—you've landed a job with TEnmo, whose product is an online payment service for transferring "TE bucks" between friends. However, they don't have a product yet. You've been tasked with writing a RESTful API server and command-line application.
-
+I was tasked with leading a squad in the completion of this project. It was a great experience and I learned an incredible amount from my team. Everything should work fine if you would like to check out the application yourself. If you would like to contribute, please start by helping me write functional unit tests!
 ## Use cases
 
-1. **[COMPLETE]** As a user of the system, I need to be able to register myself with a username and password.
+1.  As a user of the system, I need to be able to register myself with a username and password.
    1. A new registered user starts with an initial balance of 1,000 TE Bucks.
    2. The ability to register has been provided in your starter code.
-2. **[COMPLETE]** As a user of the system, I need to be able to log in using my registered username and password.
+2.  As a user of the system, I need to be able to log in using my registered username and password.
    1. Logging in returns an Authentication Token. I need to include this token with all my subsequent interactions with the system outside of registering and logging in.
    2. The ability to log in has been provided in your starter code.
 3. As an authenticated user of the system, I need to be able to see my Account Balance.
