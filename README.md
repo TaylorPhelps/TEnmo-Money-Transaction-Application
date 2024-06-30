@@ -1,9 +1,8 @@
 # TEnmo Money Transaction Application (Merit America Capstone #2)
 
 I was tasked with leading a squad in the completion of this project. It was a great experience, and I learned an incredible amount from my team. Everything should work fine if you would like to check out the application yourself. If you would like to contribute, please start by helping me finish writing functional unit tests(:
-## Use cases
+## Features
 
-Features
 User Registration and Login
 User Registration: New users can register with a username and password. Each new user starts with an initial balance of 1,000 TE Bucks.
 User Login: Registered users can log in using their username and password, receiving an Authentication Token to be included with subsequent system interactions.
