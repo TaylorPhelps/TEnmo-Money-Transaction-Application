@@ -1,6 +1,6 @@
 # TEnmo Money Transaction Application (Merit America Capstone #2)
 
-I was tasked with leading a squad in the completion of this project. It was a great experience and I learned an incredible amount from my team. Everything should work fine if you would like to check out the application yourself. If you would like to contribute, please start by helping me write functional unit tests!
+I was tasked with leading a squad in the completion of this project. It was a great experience, and I learned an incredible amount from my team. Everything should work fine if you would like to check out the application yourself. If you would like to contribute, please start by helping me finish writing functional unit tests(:
 ## Use cases
 
 1.  As a user of the system, I need to be able to register myself with a username and password.
